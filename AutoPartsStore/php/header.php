@@ -27,6 +27,17 @@
             <ul class="nav navbar-nav">
                 <li class="active"><a href="#">Home</a></li>
             </ul>
+
+            <!-- form for handling login.-->
+            <form class="navbar-form navbar-right" action="login.php" method="post">
+                <div class="form-group">
+                    <input name="name" type="text" placeholder="Email" class="form-control">
+                </div>
+                <div class="form-group">
+                    <input name="pwd" type="password" placeholder="Password" class="form-control">
+                </div>
+                <button type="submit" class="btn btn-success">Sign in</button>
+            </form>
         </div>
         <!-- /.navbar-collapse -->
     </nav>
