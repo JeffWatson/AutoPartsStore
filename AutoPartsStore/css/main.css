@@ -1,0 +1,76 @@
+#logout_form .username {
+    color: rgb(255, 255, 255);
+    padding-right: .5em;
+}
+
+#logout_form {
+    margin: 0;
+}
+
+#emp_order_parts label {
+    display: block !important;
+}
+
+#emp_reorder_parts label {
+    display: block !important;
+}
+
+#cust_account_form label {
+    display: block !important;
+}
+
+#emp_account_form label {
+    display: block !important;
+}
+
+#payment_form label {
+    display: block !important;
+}
+
+#car label {
+    display: block !important;
+}
+
+#admin_form label {
+    display: block !important;
+}
+
+.order_item {
+    padding: 1.5em;
+}
+
+#search_box {
+    width: 100%;
+}
+
+div .search {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+}
+
+#cust_remove_order, #admin_escalate_login {
+    float:right;
+}
+
+.part {
+    border: 5px solid #5C4E3C;
+    border-radius: 15px;
+    height: 20em;
+}
+
+.modal_piece {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+.admin_login_item {
+    padding: 1em;
+}
+
+/*.modal_piece {*/
+    /*float: right;*/
+/*}*/
+
+/*.modal_part {*/
+    /*display: block;*/
+/*}*/

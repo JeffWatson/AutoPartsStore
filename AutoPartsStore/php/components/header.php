@@ -1,10 +1,8 @@
 <?php
 /**
- * Created by IntelliJ IDEA.
- * User: jeff
- * Date: 10/29/13
+ * User: Jeff Watson
+ * Date: 11/12/13
  * Time: 1:26 PM
- * To change this template use File | Settings | File Templates.
  */
 
 ?>
@@ -19,25 +17,20 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Auto Parts Store</a>
+            <a class="navbar-brand" href="AutoPartsStore.php">Auto Parts Store</a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse navbar-ex8-collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
+                <li class="active"><a href="AutoPartsStore.php">Home</a></li>
             </ul>
 
-            <!-- form for handling login.-->
-            <form class="navbar-form navbar-right" action="login.php" method="post">
-                <div class="form-group">
-                    <input name="name" type="text" placeholder="Email" class="form-control">
-                </div>
-                <div class="form-group">
-                    <input name="pwd" type="password" placeholder="Password" class="form-control">
-                </div>
-                <button type="submit" class="btn btn-success">Sign in</button>
-            </form>
+            <div id="login_container">
+                <?php
+                    include('login.php');
+                ?>
+            </div>
         </div>
         <!-- /.navbar-collapse -->
     </nav>
